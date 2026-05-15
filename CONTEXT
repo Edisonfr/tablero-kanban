@@ -1,0 +1,12 @@
+# CONTEXT.md — Tablero Kanban Personal
+
+## 1. Propósito
+Proveer una herramienta de gestión visual de tareas basada en el método Kanban. El sistema implementa un control estricto del flujo de trabajo mediante límites de Trabajo en Progreso (WIP).
+
+## 2. Stakeholders
+- **Usuario Individual**: Persona que organiza sus tareas.
+- **Evaluador**: Verifica que la lógica del Límite WIP esté en el Dominio.
+
+## 3. Alcance
+- Gestión de un tablero con columnas: TODO, DOING, DONE.
+- Regla INV-01: Límite WIP de 3 en la columna DOING.
