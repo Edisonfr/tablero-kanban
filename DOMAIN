@@ -1,0 +1,12 @@
+# DOMAIN.md — Dominio del Tablero
+
+## 1. Lenguaje Ubicuo
+- **Tarea**: Unidad mínima de trabajo.
+- **Límite WIP**: Máximo de tareas permitidas en DOING.
+
+## 2. Entidades
+- **Tarea**: Tiene `id` (UUID), `titulo` y `estado` (TODO, DOING, DONE).
+
+## 3. Invariantes (Reglas de Oro)
+- **INV-01 (Límite WIP)**: La columna DOING no puede exceder las 3 tareas.
+- **INV-02 (Flujo Inicial)**: Toda tarea nueva inicia en TODO.
